@@ -29,6 +29,38 @@ Professional end‑to‑end test automation project showcasing UI testing agains
 3. Launch Cypress runner (GUI): npm run cy:open
 4. Run all tests headlessly: npm run cy:run
 
+## Test Coverage
+
+### UI Automation (SauceDemo)
+
+- Login & Logout
+- Inventory Sorting
+- Cart Management
+- Product Details
+- Checkout Flow
+- Reset App State
+
+Total UI Tests: 15
+
+### API Automation (ReqRes)
+
+- CRUD operations
+- Validation scenarios
+- Negative testing
+- Performance delay validation
+
+Total API Tests: 7
+
+### Hybrid Testing
+
+- Network interception
+- Stubbed API response
+- Slow network simulation
+
+Total Hybrid Tests: 2
+
+Grand Total: 24 Automated Test Cases
+
 ### Notes
 
 - SauceDemo is a public demo site; occasional third‑party hiccups may occur. The Hybrid spec demonstrates how we would stabilize tests via interception/stubbing when needed.
