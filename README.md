@@ -20,25 +20,14 @@ Professional end‑to‑end test automation project showcasing UI testing agains
 ### Targets Under Test
 
 - UI: SauceDemo (`https://www.saucedemo.com/`)
-  - Valid login: `standard_user` / `secret_sauce`
-  - Invalid (example): `locked_out_user` / `secret_sauce` (should error)
 - API: ReqRes (`https://reqres.in/`)
 
 ### Getting started
 
-1. Prereqs: Node 20+ recommended for local (CI uses Node 20).
-2. Install dependencies:
-   ```bash
-   npm ci
-   ```
-3. Launch Cypress runner (GUI):
-   ```bash
-   npm run cy:open
-   ```
-4. Run all tests headlessly:
-   ```bash
-   npm run cy:run
-   ```
+1. Prereqs: Node 20+ recommended for local
+2. Install dependencies: npm ci
+3. Launch Cypress runner (GUI): npm run cy:open
+4. Run all tests headlessly: npm run cy:run
 
 ### Notes
 
