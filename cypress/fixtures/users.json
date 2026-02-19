@@ -1,0 +1,28 @@
+{
+  "sauceDemo": {
+    "validUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "lockedUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    },
+    "checkout": {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "zip": "94107"
+    }
+  },
+  "reqres": {
+    "newUser": {
+      "name": "John Tester",
+      "job": "QA Engineer"
+    },
+    "updateUser": {
+      "name": "John Updated",
+      "job": "Senior QA"
+    }
+  }
+}
+
